@@ -1,0 +1,6 @@
+
+#slider-view{
+ border: solid 1px;
+ width: 400px;  
+ transition: width 2s;
+}
