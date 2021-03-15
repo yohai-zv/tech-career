@@ -1,0 +1,30 @@
+
+
+Sync Area:
+
+-- "run" start
+------ register sayHello to the Timer
+-- "run" end
+
+-- "sayAsiName" start
+-----  alert("My name is Asi");
+-- "sayAsiName" end
+
+[after 3 second....]
+
+-- "sayHello" start
+----- alert("Hello");
+-- "sayHello" end
+
+
+
+
+
+------------------------------------------------------------
+Async area:
+
+set Timer to 3 run sayHello();
+
+
+
+
